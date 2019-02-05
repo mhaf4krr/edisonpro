@@ -26,4 +26,4 @@ app.get('/toggle',(req,res)=>{
     console.log("Server send : "+edison.ledState());
 })
 
-server.listen(8090,'http://192.168.43.221');
+server.listen(8090,'192.168.43.221');
